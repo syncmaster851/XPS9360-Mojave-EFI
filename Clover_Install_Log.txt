@@ -1,0 +1,39 @@
+
+Clover EFI installer log - Sat Sep 29 23:06:22 CST 2018
+Installer version: v2.4k r4674 EFI bootloader
+======================================================
+/dev/disk0 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         512.1 GB   disk0
+   1:       Microsoft Basic Data EFI                     209.7 MB   disk0s1
+   2:       Microsoft Basic Data                         178.7 GB   disk0s2
+   3:           Windows Recovery                         853.5 MB   disk0s3
+   4:         Microsoft Reserved                         16.8 MB    disk0s4
+   5:                 Apple_APFS Container disk1         332.2 GB   disk0s5
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +332.2 GB   disk1
+                                 Physical Store disk0s5
+   1:                APFS Volume Mac                     14.9 GB    disk1s1
+   2:                APFS Volume Preboot                 49.4 MB    disk1s2
+   3:                APFS Volume Recovery                512.4 MB   disk1s3
+   4:                APFS Volume VM                      1.1 GB     disk1s4
+
+======================================================
+Backing up EFI files
+
+Backing up stage2 file /Volumes/EFI/EFIROOTDIR/boot  to /Volumes/EFI/EFI-Backups/r4586/2018-09-29-23h06/boot
+Backing up /Volumes/EFI/EFIROOTDIR/EFI folder to /Volumes/EFI/EFI-Backups/r4586/2018-09-29-23h06/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/EFI
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/EFI
+Stage 2 - Written boot6 (x64) to /Volumes/EFI/boot
+
+Removing drivers64UEFI/VBoxHfs-64.efi driver because HFSPlus driver present
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
