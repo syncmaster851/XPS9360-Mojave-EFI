@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Sat Sep 29 23:06:22 CST 2018
-Installer version: v2.4k r4674 EFI bootloader
+Clover EFI installer log - Sun Dec 23 19:26:30 CST 2018
+Installer version: v2.4k r4813 EFI bootloader
 ======================================================
 /dev/disk0 (internal):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -15,16 +15,16 @@ Installer version: v2.4k r4674 EFI bootloader
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +332.2 GB   disk1
                                  Physical Store disk0s5
-   1:                APFS Volume Mac                     14.9 GB    disk1s1
-   2:                APFS Volume Preboot                 49.4 MB    disk1s2
+   1:                APFS Volume Mac                     84.6 GB    disk1s1
+   2:                APFS Volume Preboot                 49.5 MB    disk1s2
    3:                APFS Volume Recovery                512.4 MB   disk1s3
    4:                APFS Volume VM                      1.1 GB     disk1s4
 
 ======================================================
 Backing up EFI files
 
-Backing up stage2 file /Volumes/EFI/EFIROOTDIR/boot  to /Volumes/EFI/EFI-Backups/r4586/2018-09-29-23h06/boot
-Backing up /Volumes/EFI/EFIROOTDIR/EFI folder to /Volumes/EFI/EFI-Backups/r4586/2018-09-29-23h06/EFI
+Backing up stage2 file /Volumes/EFI/EFIROOTDIR/boot  to /Volumes/EFI/EFI-Backups/r4674/2018-12-23-19h26/boot
+Backing up /Volumes/EFI/EFIROOTDIR/EFI folder to /Volumes/EFI/EFI-Backups/r4674/2018-12-23-19h26/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
